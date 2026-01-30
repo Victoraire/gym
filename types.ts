@@ -19,3 +19,9 @@ export interface UserStats {
   targetWeight: number;
   height: number;
 }
+
+export interface WorkoutSession {
+  dayId: string;
+  date: string;
+  completedExerciseIndices: number[];
+}
